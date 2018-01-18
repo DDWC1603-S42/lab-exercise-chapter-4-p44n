@@ -3,22 +3,31 @@
 
 
 #include <iostream>
+#include <string>
+using namespace std;
 
 
 int main()
 {
+	
+	int i,j,rows,spc,k;
+	
 	cout<<"Display the pattern"<<endl;
 	cout<<"-------------------"<<endl;
-
-	i,j,rows;
-	cout<<"Input number of rows :"<<endl;
-
-
+    cout<<"Input number of rows :"<<endl;
+    
+    cin >> rows;
+    
+    spc=rows+4-1;
 	for(i=1;i<=rows;i++)
 	{
-	for(j=1;j<=i;j++)
-		
+	for(k=spc;k>=1;k--)
+		{
+		cout<<"  ";	
+		}
+	for(j=1;j<=1;j++)
+	cout<<"*";
 	cout<<endl;
+	spc--;
 	}
 }
-	
