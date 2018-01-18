@@ -5,11 +5,18 @@
 using namespace std;
 int main()
 {
-	while(false)//infinite loop
-	{
+	while (true)// infinite loop
+     {
+	 
+	
+	
 		std::cout<<"Enter 0 to exit or anyhing else to continue: ";
 		int num;
-		cin>>num;	
+		std::cin>>num;	
+	
+	
+	
+		
 
 		//exit loop if user enters
 		if(num==0)
